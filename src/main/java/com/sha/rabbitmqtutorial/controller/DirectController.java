@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @RestController
 public class DirectController {
 
-    @Autowired
+    //@Autowired
     private AmqpTemplate directExchange;
 
     @Value("${rabbitmq.direct-routing-key.1}")

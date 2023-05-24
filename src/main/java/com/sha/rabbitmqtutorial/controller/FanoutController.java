@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @RestController
 public class FanoutController {
 
-    @Autowired
+    //@Autowired
     private AmqpTemplate fanoutExchange;
 
     @GetMapping("/fanout")

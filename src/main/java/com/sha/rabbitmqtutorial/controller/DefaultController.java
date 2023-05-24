@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @RestController
 public class DefaultController {
 
-    @Autowired
+   // @Autowired
     private AmqpTemplate defaultQueue;
 
     @GetMapping("/default")

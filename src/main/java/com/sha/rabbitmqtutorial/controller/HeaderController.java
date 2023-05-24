@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @RestController
 public class HeaderController {
 
-    @Autowired
+    //@Autowired
     private AmqpTemplate headerExchange;
 
     @GetMapping("/header")

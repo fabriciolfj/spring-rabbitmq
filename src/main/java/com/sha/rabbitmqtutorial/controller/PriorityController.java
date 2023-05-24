@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @RestController
 public class PriorityController {
 
-    @Autowired
+    //@Autowired
     private AmqpTemplate defaultPriorityQueue;
 
     @GetMapping("/priority")

@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @RestController
 public class TopicController {
 
-    @Autowired
+    //@Autowired
     private AmqpTemplate topicExchange;
 
     @GetMapping("/topic/{key}")
